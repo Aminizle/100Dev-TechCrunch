@@ -1,0 +1,133 @@
+/* Box Model Hack */
+* {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body{
+
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav,main,aside{
+  float: left;
+ }
+
+nav{
+  width: 20%;
+  height: 100%;
+  background-color: yellow;
+}
+
+main{
+  height: auto;
+  background-color: orange;
+  width: 50%;
+  padding: 10px;
+}
+
+aside{
+  height: auto;
+  background-color: red;
+  width: 30%;
+}  
+
+body{
+
+}
+
+section{
+ padding-left: 20%;
+}
+.ww{
+  float: right;
+  width: 33.3333%;
+}
+.section_title{
+  width: 33.3333%;
+  float: right;
+}
+
+.section_p{
+  float: right;
+  width: 33.3333%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.log_menu{
+  padding-left: 40px;
+}
+
+.logo{
+width:150px;
+height: auto;
+
+}
+
+.crunch{
+  display: block;
+  color: goldenrod;
+}
+
+.main_img{
+  width: 100%;
+}
+
+.ww{
+  width: 33.3333%;
+}
+ul{
+  list-style-type: none;
+}
+
+a{
+  color: rgb(150, 148, 148);
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+h1{
+  font-weight: bold;
+}
+
+p{
+  color: rgb(150, 148, 148);
+}
+
+span{
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
